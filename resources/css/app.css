@@ -1,0 +1,4 @@
+@import'~bootstrap/dist/css/bootstrap';
+@import'style';
+@import'~slick-carousel/slick/slick';
+@import'~slick-carousel/slick/slick-theme';

@@ -1,0 +1,96 @@
+ 
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+    --maincolor: #3065b5;
+    --sec-color: #fff;
+    --accent: #3eb8d7;
+    --tr-color: #0392ce;
+    --textsec: rgb(109, 105, 105);
+  }
+  
+  .img-header{
+    background-image: url(/img/studio-dentistico-cantoro-lecce.jpg);
+    background-size:cover;
+  }
+  
+  .nav-custom{
+    color: var(--sec-color);
+    background-color: rgba(160, 152, 152, 0.473);
+    position: fixed top;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+  }
+
+  .he-li {
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+
+  .he-li:hover {
+    color: rgb(148, 143, 143);
+  }
+
+  a {
+    color: var(--sec-color)
+  }
+
+  .brand {
+    margin-left: 140px;
+    margin-bottom: -10px;
+  }
+
+  .slogan {
+    color: var(--sec-color);
+    height: 400px;
+  }
+
+  .slogan-text{
+      margin-top: 150px;
+  }
+
+  .icon{
+      color: var(--accent);
+  }
+
+  .middle {
+      color: var(--textsec);
+  }
+
+  .card1{
+      background-color: var(--maincolor);
+  }
+  .card2{
+      background-color:  var(--accent);
+  }
+  .card3{
+      background-color: var(--tr-color);
+  }
+
+  .card-title , .card-text{
+      color: var(--sec-color);
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+  .review {
+    background-image: url(/img/dentista-lecce-studio-dentistico-1.jpg);
+    display:flex;
+    height: 400px;
+  }
+
+  .star{
+    width: 50%;
+  }
+
+  .card-staff{
+    float: left;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+  }
