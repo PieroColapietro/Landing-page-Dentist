@@ -6,7 +6,7 @@
         <div class="col-12">
             <div class="row">
                 @foreach ($services as $service)
-                    <div class="col-3">
+                    <div class="col-sm-7 col-md-6 col-lg-3">
                         <x-card 
                             title="{{ $service['title'] }}" 
                             img="{{ $service['img'] }}"

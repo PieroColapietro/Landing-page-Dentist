@@ -166,6 +166,12 @@
   .acc-fo {
     margin-right: 7px;
   }
+  .brand , .slogan-text {
+    margin-left: 50px;
+  }
+  .card-service {
+    margin-left: -0px !important;
+  }
 }
 
 @media screen and (max-width: 400px)  {

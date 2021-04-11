@@ -61,7 +61,7 @@
     
         <div class="container slogan col-12">
             <h2 class="slogan-text">Studio Dentistico Colapietro <br><br></h2>
-            <h1>Il meglio per la salute dei tuoi denti</h1>
+            <h1 class="slogan-text">Il meglio per la salute dei tuoi denti</h1>
         </div>
     </div>
     
