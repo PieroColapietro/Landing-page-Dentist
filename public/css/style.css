@@ -80,17 +80,105 @@
 
   .review {
     background-image: url(/img/dentista-lecce-studio-dentistico-1.jpg);
-    display:flex;
-    height: 400px;
   }
 
   .star{
     width: 50%;
   }
 
-  .card-staff{
-    float: left;
+  .staff-card {
     border-radius: 20px;
     -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
     box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+    display:flex;
+    float: left;
   }
+
+  .contacts-item {
+    float: left;
+  }
+
+  .card-service {
+    -webkit-box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77); 
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.77);
+    border-radius: 20px;
+  }
+
+  .title-serv {
+    color: var(--maincolor);
+  }
+
+  .btn-serv {
+    color: var(--sec-color);
+    align-self: center;
+    font-size: 20px;
+    background-color: var(--accent);
+  }
+
+  .btn-serv:hover {
+    color: var(--sec-color);
+    align-self: center;
+    font-size: 20px;
+    background-color: var(--textsec);
+  }
+
+  @media screen and (max-width: 853px)  {
+  
+    #ghost-nav {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1220px)  {
+  
+  #item-nav {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 575px)  {
+  
+  .middle {
+    margin-left:180px !important;
+  }
+}
+
+@media screen and (max-width: 480px)  {
+  
+  .middle {
+    margin-left:80px !important;
+  }
+}
+
+
+@media screen and (max-width: 995px)  {
+  
+  .card-header {
+    display: contents;
+  }
+  .card-rew{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 350px)  {
+
+  .acc-fo {
+    margin-right: 7px;
+  }
+}
+
+@media screen and (max-width: 400px)  {
+  .staff-card{
+    margin-left: 0px !important;
+    padding-left: -15px !important;
+}
+
+}
+
+.card-rew {
+  background-color: rgba(128, 128, 128, 0.459);
+  border: none;
+  float:left;
+  border-radius: 20px;
+}

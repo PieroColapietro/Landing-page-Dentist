@@ -20,7 +20,7 @@
 <body>
     <div class="img-header">
         <div class="container-fluid nav-custom col-12">
-            <div class="row">
+            <div class="row" id="ghost-nav">
                 <a class="col-2 he-li ms-5 text-end mt-3">
                     Prenota un appuntamento
                 </a>
@@ -44,17 +44,17 @@
                 Studio <b>Colapietro</b>
             </div>
             <ul class="nav justify-content-end me-5">
-                <li class="nav-item me-5">
+                <li class="nav-item me-5" id="item-nav">
                     <a class="nav-link active me-5 he-li" aria-current="page" href="/">Home</a>
                 </li>
-                <li class="nav-item me-5">
-                    <a class="nav-link me-5 he-li" href="#">Chi siamo</a>
+                <li class="nav-item me-5" id="item-nav">
+                    <a class="nav-link me-5 he-li" href="/chisiamo">Chi siamo</a>
                 </li>
-                <li class="nav-item me-5">
-                    <a class="nav-link me-5 he-li" href="#">Servizi</a>
+                <li class="nav-item me-5" id="item-nav">
+                    <a class="nav-link me-5 he-li" href="/servizi">Servizi</a>
                 </li>
-                <li class="nav-item me-5">
-                    <a class="nav-link me-5 he-li" href="#" tabindex="-1" aria-disabled="true">Contatti</a>
+                <li class="nav-item me-5" id="item-nav">
+                    <a class="nav-link me-5 he-li" href="/contatti" tabindex="-1" aria-disabled="true">Contatti</a>
                 </li>
             </ul>
         </div>

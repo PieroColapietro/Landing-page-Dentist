@@ -11,10 +11,10 @@ function populateCard() {
 
     ads.forEach(ad => {
         let card = document.createElement('div')
-        card.innerHTML = `<div class="col-6 mt-5 mb-5 card-staff">
-                                <h5 class="mt-5 text-light"><i class="far fa-smile text-light"></i> ${ad.title}</h5>
-                                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="star" class="star">
-                                <cite class="mt-5 text-light">${ad.description}</cite>
+        card.innerHTML = `<div class="card col-sm-6 col-md-6 col-lg-2 card-rew ms-5 mt-5 mb-5 me-5">
+                                <h5 class="mt-5 ms-3 text-light"><i class="far fa-smile text-light"></i> ${ad.title}</h5>
+                                <img src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg" alt="star" class="star mt-3  ms-3 ">
+                                <p class="mt-4  ms-3 "><cite class="mt-5 text-light">${ad.description}</cite></p>
                           </div>             
         `
         popuCard.appendChild(card)
@@ -40,8 +40,8 @@ function populateStaff() {
     ads.forEach(ad => {
         let card = document.createElement('div')
         card.innerHTML = `
-                            <div class="card card-staff m-5 p-3" style="width: 18rem;">
-                                <img class="card-img-top" src="${ad.img}" alt="Card image cap">
+                            <div class="card staff-card col-sm-5 col-md-6 col-lg-2 p-3 m-5" style="width: 18rem;">
+                                <img class="img-fluid img-staff" src="${ad.img}" alt="Card image cap">
                                 <hr>
                                 <div class="card-body">
                                 <h5 class="card-title2">${ad.title}</h5>

@@ -21,3 +21,7 @@ Route::get('/contatti' , [PublicController::class, 'contacts'])->name('contatti'
 Route::post('/contatti/submit' , [PublicController::class, 'submit'])->name('contatti.submit');
 
 Route::get('/chisiamo' , [PublicController::class , 'chisiamo'])->name('chisiamo');
+
+Route::get('/servizi/dettaglio/{title}', [PublicController::class, 'detail'])->name('servizi.dettaglio');
+
+Route::get('/servizi', [PublicController::class, 'servizi'])->name('servizi');

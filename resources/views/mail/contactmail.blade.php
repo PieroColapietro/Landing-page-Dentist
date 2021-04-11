@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ciao {{$name}} , ti confermiamo che abbiamo ricevuto la tua richiesta di contatto e verrai pertanto ricontattato al più presto al numero da te fornitoci.</h1>
+    <h1>Ciao {{$contact['user']}} \, ti confermiamo che abbiamo ricevuto la tua richiesta di contatto e verrai pertanto ricontattato al più presto al numero da te fornitoci.</h1>
     <p>Grazie per averci scelto</p>
     <p>Il Team di Studio Colapietro</p>
 
@@ -16,6 +16,8 @@
            <p>Riepilogo Dati</p>
             <li>
                 Nome Utente: {{$contact['user']}}
+            </li>
+            <li>
                 Cellulare: {{$contact['phone']}}
             </li>
         </ul>
